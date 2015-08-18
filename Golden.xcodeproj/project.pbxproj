@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EACECD21B82F78400C32AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EACECD11B82F78400C32AAC /* main.m */; };
+		1EACECD51B82F78400C32AAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EACECD41B82F78400C32AAC /* AppDelegate.m */; };
+		1EACECD81B82F78400C32AAC /* Golden.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EACECD61B82F78400C32AAC /* Golden.xcdatamodeld */; };
+		1EACECDB1B82F78400C32AAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EACECDA1B82F78400C32AAC /* ViewController.m */; };
+		1EACECDE1B82F78400C32AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EACECDC1B82F78400C32AAC /* Main.storyboard */; };
+		1EACECE01B82F78400C32AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EACECDF1B82F78400C32AAC /* Images.xcassets */; };
+		1EACECE31B82F78400C32AAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EACECE11B82F78400C32AAC /* LaunchScreen.xib */; };
+		1EACECEF1B82F78400C32AAC /* GoldenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EACECEE1B82F78400C32AAC /* GoldenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EACECE91B82F78400C32AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EACECC41B82F78400C32AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EACECCB1B82F78400C32AAC;
+			remoteInfo = Golden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EACECCC1B82F78400C32AAC /* Golden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EACECD01B82F78400C32AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EACECD11B82F78400C32AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EACECD31B82F78400C32AAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EACECD41B82F78400C32AAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EACECD71B82F78400C32AAC /* Golden.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Golden.xcdatamodel; sourceTree = "<group>"; };
+		1EACECD91B82F78400C32AAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EACECDA1B82F78400C32AAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EACECDD1B82F78400C32AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EACECDF1B82F78400C32AAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EACECE21B82F78400C32AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EACECE81B82F78400C32AAC /* GoldenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EACECED1B82F78400C32AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EACECEE1B82F78400C32AAC /* GoldenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EACECC91B82F78400C32AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EACECE51B82F78400C32AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EACECC31B82F78400C32AAC = {
+			isa = PBXGroup;
+			children = (
+				1EACECCE1B82F78400C32AAC /* Golden */,
+				1EACECEB1B82F78400C32AAC /* GoldenTests */,
+				1EACECCD1B82F78400C32AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EACECCD1B82F78400C32AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EACECCC1B82F78400C32AAC /* Golden.app */,
+				1EACECE81B82F78400C32AAC /* GoldenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EACECCE1B82F78400C32AAC /* Golden */ = {
+			isa = PBXGroup;
+			children = (
+				1EACECD31B82F78400C32AAC /* AppDelegate.h */,
+				1EACECD41B82F78400C32AAC /* AppDelegate.m */,
+				1EACECD91B82F78400C32AAC /* ViewController.h */,
+				1EACECDA1B82F78400C32AAC /* ViewController.m */,
+				1EACECDC1B82F78400C32AAC /* Main.storyboard */,
+				1EACECDF1B82F78400C32AAC /* Images.xcassets */,
+				1EACECE11B82F78400C32AAC /* LaunchScreen.xib */,
+				1EACECD61B82F78400C32AAC /* Golden.xcdatamodeld */,
+				1EACECCF1B82F78400C32AAC /* Supporting Files */,
+			);
+			path = Golden;
+			sourceTree = "<group>";
+		};
+		1EACECCF1B82F78400C32AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EACECD01B82F78400C32AAC /* Info.plist */,
+				1EACECD11B82F78400C32AAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EACECEB1B82F78400C32AAC /* GoldenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EACECEE1B82F78400C32AAC /* GoldenTests.m */,
+				1EACECEC1B82F78400C32AAC /* Supporting Files */,
+			);
+			path = GoldenTests;
+			sourceTree = "<group>";
+		};
+		1EACECEC1B82F78400C32AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EACECED1B82F78400C32AAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EACECCB1B82F78400C32AAC /* Golden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EACECF21B82F78400C32AAC /* Build configuration list for PBXNativeTarget "Golden" */;
+			buildPhases = (
+				1EACECC81B82F78400C32AAC /* Sources */,
+				1EACECC91B82F78400C32AAC /* Frameworks */,
+				1EACECCA1B82F78400C32AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golden;
+			productName = Golden;
+			productReference = 1EACECCC1B82F78400C32AAC /* Golden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EACECE71B82F78400C32AAC /* GoldenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EACECF51B82F78400C32AAC /* Build configuration list for PBXNativeTarget "GoldenTests" */;
+			buildPhases = (
+				1EACECE41B82F78400C32AAC /* Sources */,
+				1EACECE51B82F78400C32AAC /* Frameworks */,
+				1EACECE61B82F78400C32AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EACECEA1B82F78400C32AAC /* PBXTargetDependency */,
+			);
+			name = GoldenTests;
+			productName = GoldenTests;
+			productReference = 1EACECE81B82F78400C32AAC /* GoldenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EACECC41B82F78400C32AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Gate;
+				TargetAttributes = {
+					1EACECCB1B82F78400C32AAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1EACECE71B82F78400C32AAC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1EACECCB1B82F78400C32AAC;
+					};
+				};
+			};
+			buildConfigurationList = 1EACECC71B82F78400C32AAC /* Build configuration list for PBXProject "Golden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EACECC31B82F78400C32AAC;
+			productRefGroup = 1EACECCD1B82F78400C32AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EACECCB1B82F78400C32AAC /* Golden */,
+				1EACECE71B82F78400C32AAC /* GoldenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EACECCA1B82F78400C32AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EACECDE1B82F78400C32AAC /* Main.storyboard in Resources */,
+				1EACECE31B82F78400C32AAC /* LaunchScreen.xib in Resources */,
+				1EACECE01B82F78400C32AAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EACECE61B82F78400C32AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EACECC81B82F78400C32AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EACECD81B82F78400C32AAC /* Golden.xcdatamodeld in Sources */,
+				1EACECD51B82F78400C32AAC /* AppDelegate.m in Sources */,
+				1EACECDB1B82F78400C32AAC /* ViewController.m in Sources */,
+				1EACECD21B82F78400C32AAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EACECE41B82F78400C32AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EACECEF1B82F78400C32AAC /* GoldenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EACECEA1B82F78400C32AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EACECCB1B82F78400C32AAC /* Golden */;
+			targetProxy = 1EACECE91B82F78400C32AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EACECDC1B82F78400C32AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EACECDD1B82F78400C32AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EACECE11B82F78400C32AAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EACECE21B82F78400C32AAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EACECF01B82F78400C32AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EACECF11B82F78400C32AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EACECF31B82F78400C32AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Golden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EACECF41B82F78400C32AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Golden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EACECF61B82F78400C32AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoldenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden.app/Golden";
+			};
+			name = Debug;
+		};
+		1EACECF71B82F78400C32AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoldenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden.app/Golden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EACECC71B82F78400C32AAC /* Build configuration list for PBXProject "Golden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EACECF01B82F78400C32AAC /* Debug */,
+				1EACECF11B82F78400C32AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EACECF21B82F78400C32AAC /* Build configuration list for PBXNativeTarget "Golden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EACECF31B82F78400C32AAC /* Debug */,
+				1EACECF41B82F78400C32AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EACECF51B82F78400C32AAC /* Build configuration list for PBXNativeTarget "GoldenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EACECF61B82F78400C32AAC /* Debug */,
+				1EACECF71B82F78400C32AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EACECD61B82F78400C32AAC /* Golden.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EACECD71B82F78400C32AAC /* Golden.xcdatamodel */,
+			);
+			currentVersion = 1EACECD71B82F78400C32AAC /* Golden.xcdatamodel */;
+			path = Golden.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EACECC41B82F78400C32AAC /* Project object */;
+}
